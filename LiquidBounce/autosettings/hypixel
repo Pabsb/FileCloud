@@ -31,7 +31,7 @@ AutoArmor SimulateInventory true
 AutoArmor NoMove false
 AutoArmor ItemDelay 0
 AutoArmor Hotbar true
-AutoArmor toggle true
+AutoArmor toggle false
 AutoClicker MaxCPS 12
 AutoClicker MinCPS 8
 AutoClicker Right false
@@ -137,7 +137,7 @@ ItemTeleport toggle false
 KeepAlive toggle false
 KeepContainer toggle false
 Kick toggle false
-KillAura MaxCPS 12
+KillAura MaxCPS 10
 KillAura MinCPS 7
 KillAura HurtTime 10
 KillAura Range 4.21
@@ -151,8 +151,8 @@ KillAura AutoBlock true
 KillAura InteractAutoBlock true
 KillAura DelayedBlock true
 KillAura BlockRate 100
-KillAura RayCast false
-KillAura RayCastIgnored false
+KillAura RayCast true
+KillAura RayCastIgnored true
 KillAura LivingRayCast false
 KillAura AAC false
 KillAura MaxTurnSpeed 35.0
@@ -173,7 +173,7 @@ KillAura FakeSharp false
 KillAura toggle false
 KillAura RotationStrafe false
 LadderJump toggle false
-LiquidChat toggle true
+LiquidChat toggle false
 LiquidWalk Mode NCP
 LiquidWalk toggle false
 Liquids toggle false
@@ -214,6 +214,7 @@ Reach toggle false
 Regen toggle false
 ReverseStep toggle false
 SafeWalk toggle false
+SafeWalk AirSafe false
 Scaffold Mode Normal
 Scaffold MaxDelay 0
 Scaffold MinDelay 0
@@ -221,7 +222,7 @@ Scaffold PlaceableDelay true
 Scaffold AutoBlock true
 Scaffold StayAutoBlock true
 Scaffold Sprint true
-Scaffold Swing false
+Scaffold Swing true
 Scaffold Search true
 Scaffold PlaceTiming Post
 Scaffold Eagle false
